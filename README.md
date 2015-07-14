@@ -1,8 +1,7 @@
 # Less Rails Jasny Bootstrap
 
-# [Jasny Bootstrap](http://jasny.github.io/bootstrap/)
 
-Jasny Bootstrap is an extension of the famous [Bootstrap](http://getbootstrap.com/), adding the following components:
+Jasny Bootstrap(http://jasny.github.io/bootstrap/) is an extension of the famous [Bootstrap](http://getbootstrap.com/), adding the following components:
 
 * [Button labels](http://jasny.github.io/bootstrap/css/#buttons-labels)
 * [Off canvas navmenu](http://jasny.github.io/bootstrap/components/#navmenu)
@@ -13,8 +12,7 @@ Jasny Bootstrap is an extension of the famous [Bootstrap](http://getbootstrap.co
 
 To get started, check out <http://jasny.github.io/bootstrap>!
 
-The less-rails-jasny-bootstrap project hooks into [less-rails](http://github.com/metaskills/less-rails) and [less.rb](http://github.com/cowboyd/less.rb),
-making Jasny Bootstrap's source LESS files, compiled CSS, and JavaScript files available in the Rails 3.x and 4.x asset pipeline.
+The less-rails-jasny-bootstrap project makes Jasny Bootstrap's source LESS files, compiled CSS, and JavaScript files available in the Rails 3.x and 4.x asset pipeline.
 
 The benefits:
 

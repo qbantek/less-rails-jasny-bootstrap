@@ -1,7 +1,7 @@
 # Less Rails Jasny Bootstrap
 
 
-Jasny Bootstrap(http://jasny.github.io/bootstrap/) is an extension of the famous [Bootstrap](http://getbootstrap.com/), adding the following components:
+[Jasny Bootstrap](http://jasny.github.io/bootstrap/) is an extension of the famous [Bootstrap](http://getbootstrap.com/), adding the following components:
 
 * [Button labels](http://jasny.github.io/bootstrap/css/#buttons-labels)
 * [Off canvas navmenu](http://jasny.github.io/bootstrap/components/#navmenu)

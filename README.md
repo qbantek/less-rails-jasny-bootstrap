@@ -1,7 +1,7 @@
 # Less Rails Jasny Bootstrap
 
 
-The less-rails-jasny-bootstrap project makes [Jasny Bootstrap](http://jasny.github.io/bootstrap/)'s source LESS files, compiled CSS, and JavaScript files available in the Rails 3.x and 4.x asset pipeline.
+The `less-rails-jasny-bootstrap` project makes [Jasny Bootstrap](http://jasny.github.io/bootstrap/)'s source LESS files, compiled CSS, and JavaScript files available in the Rails 3.x and 4.x asset pipeline.
 
 The benefits:
 
@@ -12,7 +12,7 @@ The benefits:
 
 ## Installation
 
-LESS requires a JavaScript runtime to work. Which one you use depends on your Ruby implementation. Two are shown for Ruby (MRI) and JRuby. Add only the relevant one to your Gemfile. If you want to use Jasny Bootstrap's JavaScript plugins, also add the `jquery-rails` gem. Finally, add `less-rails-bootstrap and `less-jasny-rails-bootstrap` and run `bundle install`.
+LESS requires a JavaScript runtime to work. Which one you use depends on your Ruby implementation. Two are shown for Ruby (MRI) and JRuby. Add only the relevant one to your Gemfile. If you want to use Jasny Bootstrap's JavaScript plugins, also add the `jquery-rails` gem. Finally, add `less-rails-bootstrap` and `less-jasny-rails-bootstrap` and run `bundle install`.
 
 ```ruby
 # Gemfile

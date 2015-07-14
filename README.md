@@ -68,6 +68,15 @@ Or include plugins individually.
 //= require jasny/bootstrap/offcanvas
 ````
 
+## Contributing
+
+1. Fork it ( https://github.com/qbantek/jquery_block_ui/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
+
+
 ## Versioning
 
 This gem will directly track the semantic versioning of the Jasny Bootstrap project. Our major and minor versions will always match to theirs, though we may have tiny patch level releases specific to this gem.

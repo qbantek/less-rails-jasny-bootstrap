@@ -2,8 +2,10 @@ module Less
   module Rails
     module Jasny
       module Bootstrap
-        VERSION = '0.1.4'
       end
     end
   end
 end
+
+require 'less-rails'
+require 'less/rails/jasny/bootstrap'

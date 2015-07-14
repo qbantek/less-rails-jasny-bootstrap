@@ -83,7 +83,7 @@ This gem will directly track the semantic versioning of the Jasny Bootstrap proj
 
 ## License
 
-Twitter Bootstrap Project(https://github.com/twbs/bootstrap) - Copyright 2011-2015 Twitter, Inc. Code released under [the MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/twbs/bootstrap/blob/master/docs/LICENSE).
+[Twitter Bootstrap Project](https://github.com/twbs/bootstrap) - Copyright 2011-2015 Twitter, Inc. Code released under [the MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/twbs/bootstrap/blob/master/docs/LICENSE).
 
 Less::Rails and Less::Rails::Bootstrap - Copyright (c) 2011 Ken Collins, <ken@metaskills.net> and distributed under the MIT license.
 

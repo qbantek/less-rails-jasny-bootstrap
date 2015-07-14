@@ -76,6 +76,6 @@ This gem will directly track the semantic versioning of the Jasny Bootstrap proj
 
 [Less::Rails](https://github.com/metaskills/less-rails) and [Less::Rails::Bootstrap](https://github.com/metaskills/less-rails-bootstrap) - Copyright (c) 2011 Ken Collins, <ken@metaskills.net> and distributed under the MIT license.
 
-[Jasny Bootstrap] - Copyright 2013 Jasny BV under [the Apache 2.0 license](LICENSE).
+[Jasny Bootstrap](https://github.com/jasny/bootstrap) - Copyright 2013 Jasny BV under [the Apache 2.0 license](LICENSE).
 
 Distributed under MIT License.

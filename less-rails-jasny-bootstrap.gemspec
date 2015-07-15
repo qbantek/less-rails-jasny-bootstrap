@@ -10,7 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ['qbantek@gmail.com']
 
   spec.summary       = %q{ Jasny Bootstrap less and javascript files for rails applications.}
-  spec.homepage      = "https://github.com/qbantek/less-rails-jasny-bootstrap."
+  spec.description   = %q{ Jasny Bootstrap less and javascript files for rails applications.}
+  spec.homepage      = "https://github.com/qbantek/less-rails-jasny-bootstrap"
   spec.license       = 'MIT'
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = 'exe'

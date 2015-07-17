@@ -17,11 +17,8 @@ task :update do
     system("cd jasny-bootstrap-src && git checkout #{checkout_branch}")
   end
 
-=begin
-  system('cp jasny-bootstrap-src/less/datepicker*.less             app/assets/stylesheets/bootstrap-datepicker/')
-  system('cp jasny-bootstrap-src/dist/js/bootstrap-datepicker.js   app/assets/javascripts/jasny-bootstrap/core.js')
-  system('cp jasny-bootstrap-src/js/locales/*.js                   app/assets/javascripts/bootstrap-datepicker/locales/')
-=end
+
+  system('cp jasny-bootstrap-src/js/*.js         app/assets/javascripts/jasny-bootstrap/')
   system('git status')
 
   puts "\n"

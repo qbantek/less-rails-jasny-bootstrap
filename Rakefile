@@ -19,7 +19,7 @@ task :update do
 
 =begin
   system('cp jasny-bootstrap-src/less/datepicker*.less             app/assets/stylesheets/bootstrap-datepicker/')
-  system('cp jasny-bootstrap-src/dist/js/bootstrap-datepicker.js   app/assets/javascripts/bootstrap-datepicker/core.js')
+  system('cp jasny-bootstrap-src/dist/js/bootstrap-datepicker.js   app/assets/javascripts/jasny-bootstrap/core.js')
   system('cp jasny-bootstrap-src/js/locales/*.js                   app/assets/javascripts/bootstrap-datepicker/locales/')
 =end
   system('git status')

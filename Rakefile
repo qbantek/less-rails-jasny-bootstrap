@@ -19,6 +19,7 @@ task :update do
 
 
   system('cp jasny-bootstrap-src/js/*.js         app/assets/javascripts/jasny-bootstrap/')
+  system('cp jasny-bootstrap-src/less/*.less     app/assets/stylesheets/jasny-bootstrap/')
   system('git status')
 
   puts "\n"

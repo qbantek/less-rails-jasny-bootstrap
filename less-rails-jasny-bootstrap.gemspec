@@ -5,7 +5,7 @@ require 'less/rails/jasny/bootstrap/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'less-rails-jasny-bootstrap'
-  spec.version       = Less::Rails::Jasny::Bootstrap::VERSION
+  spec.version       = "#{Less::Rails::Jasny::Bootstrap::VERSION}.1"
   spec.authors       = ['Erich Quintero']
   spec.email         = ['qbantek@gmail.com']
 
@@ -21,6 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 1.10'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_runtime_dependency     'less-rails', ['>= 2.6', '<= 2.8']
-
   spec.add_development_dependency 'rails',  ['>= 3.1', '<= 4.2']
+  spec.add_development_dependency 'pry', '~> 0.10.1'
+  spec.add_development_dependency 'json', '~> 1.8'
 end

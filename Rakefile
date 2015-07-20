@@ -26,3 +26,21 @@ task :update do
   puts "jasny-bootstrap version:            #{JSON.parse(File.read('./jasny-bootstrap-src/bower.json'))['version']}"
   puts "less-rails-jasny-bootstrap version: #{Less::Rails::Jasny::Bootstrap::VERSION}"
 end
+
+
+desc 'Build'
+task 'build' do
+  system('gem build less-rails-jasny-bootstrap.gemspec')
+end
+
+desc 'Build and publish the gem'
+task :publish => :build do
+  tags = `git tag`.split
+  current_version = Less::Rails::Jasny::Bootstrap::VERSION
+  system("git tag -a #{current_version} -m 'Release #{current_version}'") unless tags.include?(current_version)
+  system("gem push less-rails-jasny-bootstrap-#{current_version}.gem")
+  system('git push --follow-tags')
+end
+
+task :release => :publish do
+end

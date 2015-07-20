@@ -5,7 +5,7 @@ require 'less/rails/jasny/bootstrap/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'less-rails-jasny-bootstrap'
-  spec.version       = "#{Less::Rails::Jasny::Bootstrap::VERSION}.1"
+  spec.version       = "#{Less::Rails::Jasny::Bootstrap::VERSION}"
   spec.authors       = ['Erich Quintero']
   spec.email         = ['qbantek@gmail.com']
 
